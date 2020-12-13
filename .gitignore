@@ -1,0 +1,10 @@
+/node_modules/
+package-lock.json
+/dist/**/*.html
+/dist/**/*.css
+/dist/**/*.js
+/.env
+/src/php/src/config.php
+/dist/corspan/*.php
+/dist/corspan/*.htaccess
+/dist/corspan/data/*.json

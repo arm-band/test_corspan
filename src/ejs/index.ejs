@@ -1,0 +1,17 @@
+<%- include('partial/_head') %>
+<body>
+<%- include('partial/_header') %>
+<main class="l-main">
+    <section class="container py-5">
+        <h1><i class="fas fa-fw fa-long-arrow-alt-up mr-2" aria-hidden="true"></i><%= parameters.title %></h1>
+        <p><%= parameters.description %></p>
+    </section>
+    <section class="container pb-5">
+        <div id="list"></div>
+    </section>
+    <div class="d-none" id="url" data-url="<%= URL %>"></div>
+</main>
+<%- include('partial/_footer') %>
+<%- include('partial/_js_loader') %>
+</body>
+</html>
